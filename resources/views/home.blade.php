@@ -6,9 +6,11 @@
 
       <h1 class="text-3xl justify-center items-center my-4">Welcome to Home</h1>
 
-      <div>
-        <a class="btn btn-success mb-4" href="{{ route('register') }}">Register Users</a>
-      </div>
+      @if (auth()->user()->is_admin == true)
+        <div>
+          <a class="btn btn-success mb-4" href="{{ route('register') }}">Register Users</a>
+        </div>
+      @endif
       
     </div>
   </main>
