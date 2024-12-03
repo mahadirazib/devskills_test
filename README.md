@@ -12,5 +12,5 @@ php artisan key:generate
 ```
 
 user these credentials for default login.\
-username: admin
+username: admin\
 password: admin
