@@ -10,3 +10,7 @@ Also rename the file .env.example to .env and generate a key with:
 ```sh
 php artisan key:generate
 ```
+
+user these credentials for default login.
+username: admin
+password: admin
